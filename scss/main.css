@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body .container {
+  cursor: pointer;
+}
+
+body .container p {
+  font-size: 48px;
+  color: black;
+}
+
+body .container p span {
+  color: #dd1616;
+}
+
+body .container:hover {
+  background-color: #dd1616;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container:hover span {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+$red: rgb(221, 22, 22);
+$p_col: #fff;
+$p_black: black;
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    .container {
+        cursor: pointer;
+        p {
+            font-size: 48px;
+            color: $p_black;
+
+            span {
+                color: $red;
+            }
+        }
+        &:hover {
+            background-color: $red;
+            transition: 0.5s;
+            span {
+                color:  $p_col;
+            }
+        }
+    }
+}
